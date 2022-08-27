@@ -1,0 +1,19 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    color:white;
+    top: 80vh;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    a {
+        color:hsl(228, 45%, 44%);
+    }
+    @media #{$maxMobile}{
+        width: 100%;
+        position: absolute;
+        top: 78vh;
+        left: 50%;
+        
+    }
+}

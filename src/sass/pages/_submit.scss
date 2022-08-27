@@ -1,0 +1,136 @@
+.container{
+    margin: 0px auto;
+    padding: 10px 30px;
+    background-color:$blackRadial;
+    border-radius: 15px;
+    width: 400px;
+    height: 410px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    @media #{$maxMobile}{
+        width: 310px;
+        height: 360px;
+        
+    }
+
+    header {
+        color:white;
+        font-family: overpass;
+        font-size: 28px;
+        font-weight: bold;
+        color:white;
+        padding:5px 0px;
+        @media #{$maxMobile}{
+            font-size:24px;
+            padding:0px;
+        }
+
+    }
+    p {
+        color:$Light_Grey;
+        font-family: overpass;
+        font-size:15px;
+        font-weight: regular;
+        line-height: 28px;
+        margin:5px 30px 0px 0px;
+        @media #{$maxMobile}{
+            margin:5px 0px;
+        }
+
+    }
+
+    .img1 {
+        
+        border-radius: 50%;
+        background-color: $darkBlue;
+        padding:20px;
+        margin-bottom: 20px;
+        margin-top:20px;
+        @media #{$maxMobile}{
+            margin-top:10px;
+            margin-bottom: 20px;
+            padding:17px;
+        }
+       
+
+      
+    }
+
+    
+.rating {
+   display:block;
+
+    .reference {
+        margin: 20px 0px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        li {
+            
+            border-radius: 50%;
+            background-color: $darkBlue;
+            padding:20px 25px;
+            font-family: overpass;
+            cursor: pointer;
+            list-style-type: none;
+            text-decoration:none;
+            color:white;
+            font-weight: bold;
+           
+            &:hover {
+                background-color: $Orange !important;
+            }
+
+            @media #{$maxMobile}{
+                padding:15px 20px;
+                
+            }
+
+         Link {
+            color:$Light_Grey;
+            text-decoration: none;
+            
+            }
+       
+        }
+    }
+
+
+    .button {
+        display:block;
+        background-color:$Orange;
+        border: none;
+        color: white;
+        width:100%;
+        padding: 10px 0px;
+        text-align: center;
+        margin: 20px auto;
+        cursor: pointer;
+        border-radius: 35px;
+        font-family: overpass;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 28px;
+        letter-spacing: 1.87px;
+        text-transform: uppercase;
+        text-decoration:none;
+        
+        &:hover {
+            background-color: $White;
+            color:$Orange;
+            
+        }
+        @media #{$maxMobile}{
+            padding: 8px 0px;
+            
+        }
+        
+        
+    }
+}
+}
+
+
